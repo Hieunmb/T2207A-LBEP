@@ -31,7 +31,7 @@ int main(){
 		case 6:d=7;break;
 		case 7:d=1;break;}
 		int t=d;
-		if (t=1){
+		if (t==1){
 		printf ("Hom nay la chu nhat");}
 		else{
 	
