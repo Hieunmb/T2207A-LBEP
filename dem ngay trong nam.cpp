@@ -22,7 +22,7 @@ int main(){
 	case 12:m=334;break;}
 	int n=d+m;
 	printf("So ngay trong nam la %d",n); 
-	switch(d%7){
+	switch(n%7){
 		case 1:d=2;break;
 		case 2:d=3;break;
 		case 3:d=4;break;
