@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	int s;
+	int s=0;
 int n;
 printf("Nhap so cuoi:");
 scanf("%d",&n);
