@@ -5,7 +5,7 @@ int main(){
 	int n;
 	printf("Nhap so n:");
 	scanf("%d",&n);
-	for(m=10;n>0;n/=10){
+	for(m=1;n!=0;n/=10){
 		m=n%10;
 		p=p*10+m;
 	}
