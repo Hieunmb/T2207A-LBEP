@@ -2,7 +2,7 @@
 int main()
 {
     int ary[10];
-    int i, s, high;
+    int i, high;
     for(i=0; i<10; i++)
     {
 	 scanf("%d",&ary[i]);
@@ -11,11 +11,13 @@ int main()
     for(i=1; i<10; i++)
     {
         if(ary[i] > high)
-            high = ary[i];}
-    for(i=1;i<10;i++){
-    	if(ary[i]<high)
-    	s=ary[i];
+            high = ary[i];
 	}
-    printf("\nHighest value entered was %d", s);
+	int high2=ary[0];
+ for(int i=1;i<9;i++)
+ {
+ if(ary[i]>high2 && ary[i]<high) high2=ary[i];
+ }
+    printf("\nSo lon thu 2 la %d", max2);
 }
 
