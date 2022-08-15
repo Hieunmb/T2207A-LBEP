@@ -18,6 +18,6 @@ int main()
  {
  if(ary[i]>high2 && ary[i]<high) high2=ary[i];
  }
-    printf("\nSo lon thu 2 la %d", max2);
+    printf("\nSo lon thu 2 la %d", high2);
 }
 
