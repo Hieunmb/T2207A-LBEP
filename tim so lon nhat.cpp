@@ -13,7 +13,7 @@ int main()
         if(ary[i] > high)
             high = ary[i];
 	}
-	int high2=ary[0];
+	int high2;
  for(int i=1;i<9;i++)
  {
  if(ary[i]>high2 && ary[i]<high) high2=ary[i];
