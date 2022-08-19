@@ -1,13 +1,15 @@
 #include<stdio.h>
 #include<math.h>
 int chuVi(int a,int b,int c){
+	if (a+b>c && a+c>b && b+c>a){
 	int d=a+b+c;
-	return d;
+	return d;}
 }
 int dienTich(int a,int b,int c){
+	if (a+b>c && a+c>b && b+c>a){
 	int d=(a+b+c)/2;
 	float e=sqrt(d*(d-a)*(d-b)*(d-c));
-	return e;
+	return e;}
 }
 int tongChuSo(int a){
 	int b=0;
