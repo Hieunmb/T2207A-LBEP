@@ -1,15 +1,13 @@
 #include<stdio.h>
 #include<math.h>
 int chuVi(int a,int b,int c){
-	if (a+b>c && a+c>b && b+c>a){
 	int d=a+b+c;
-	return d;}
+	return d;
 }
 int dienTich(int a,int b,int c){
-	if (a+b>c && a+c>b && b+c>a){
 	int d=(a+b+c)/2;
 	float e=sqrt(d*(d-a)*(d-b)*(d-c));
-	return e;}
+	return e;
 }
 int tongChuSo(int a){
 	int b=0;
@@ -55,8 +53,11 @@ int BCNN(int a,int b){
        	int tong=tongChuSo(n);
        	int ucln=UCLN(x,y);
        	int bcnn=BCNN(x,y);
+        if(a<b+c&&b<a+c&&c<a+b){
        	printf("Chu vi tam giac la %d\n",chuvi);
-       	printf("Dien tich tam giac la %f\n",dt);
+       	printf("Dien tich tam giac la %f\n",dt);}
+       	else{printf("Day khong phai tam giac\n");
+		   }
        	printf("Tong chu so cua n la %d\n",tong);
        	printf("Uoc chung lon nhat cua 2 so la %d\n",ucln);
        	printf("Boi chung nho nhat cua 2 so la %d\n",bcnn);
