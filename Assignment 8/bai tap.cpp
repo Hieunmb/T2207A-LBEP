@@ -6,7 +6,7 @@ int chuVi(int a,int b,int c){
 }
 int dienTich(int a,int b,int c){
 	int d=(a+b+c)/2;
-	int e=sqrt(d*(d-a)*(d-b)*(d-c));
+	float e=sqrt(d*(d-a)*(d-b)*(d-c));
 	return e;
 }
 int tongChuSo(int a){
@@ -42,7 +42,7 @@ int BCNN(int a,int b){
        	scanf("%d",&b);
        	scanf("%d",&c);
        	int chuvi=chuVi(a,b,c);
-       	int dt=dienTich(a,b,c);
+       	float dt=dienTich(a,b,c);
        	int n;
        	printf("Nhap so n=");
        	scanf("%d",&n);
@@ -54,7 +54,7 @@ int BCNN(int a,int b){
        	int ucln=UCLN(x,y);
        	int bcnn=BCNN(x,y);
        	printf("Chu vi tam giac la %d\n",chuvi);
-       	printf("Dien tich tam giac la %d\n",dt);
+       	printf("Dien tich tam giac la %f\n",dt);
        	printf("Tong chu so cua n la %d\n",tong);
        	printf("Uoc chung lon nhat cua 2 so la %d\n",ucln);
        	printf("Boi chung nho nhat cua 2 so la %d\n",bcnn);
