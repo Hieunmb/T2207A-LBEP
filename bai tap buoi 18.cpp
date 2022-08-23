@@ -10,4 +10,4 @@ int main(){
 		}
 	}
 	printf("Chuoi sau khi bien doi:%s",str1);
-}
+}	
